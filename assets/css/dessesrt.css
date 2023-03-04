@@ -1,0 +1,15 @@
+.images img{
+    margin-bottom: 25px;
+    width: 350px;
+height: 300px;
+}
+div.col-md-4
+{
+    padding: 0;
+}
+.images img 
+{
+    width: 350px;
+    height: 350px;
+    box-shadow: 20px 10px 10px 0px rgb(158, 155, 155) ;
+}
