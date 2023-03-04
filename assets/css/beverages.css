@@ -87,7 +87,7 @@ img
 	 display: flex;
 	 align-items: flex-end;
 	 overflow: hidden;
-	 padding: 1rem;
+	 padding: 0;
 	 width: 100%;
 	 text-align: center;
 	 color: whitesmoke;
@@ -125,32 +125,17 @@ img
 	 transition: transform calc(var(--d) * 2) var(--e);
 }
  .copy {
-    position: absolute;
+    position: relative;
 	 font-family: var(--font-serif);
 	 font-size: 1.125rem;
 	 font-style: italic;
+	 color: black;
 	 line-height: 1.35;
-     z-index: 999;
+	 z-index: 5;
+     
 }
- .btn {
-	 cursor: pointer;
-	 margin-top: 1.5rem;
-	 padding: 0.75rem 1.5rem;
-	 font-size: 0.65rem;
-	 font-weight: bold;
-	 letter-spacing: 0.025rem;
-	 text-transform: uppercase;
-	 color: white;
-	 background-color: black;
-	 border: none;
-}
- .btn:hover {
-	 background-color: #0d0d0d;
-}
- .btn:focus {
-	 outline: 1px dashed yellow;
-	 outline-offset: 3px;
-}
+
+  
  @media (hover: hover) and (min-width: 600px) {
 	 .card:after {
 		 transform: translateY(0);
